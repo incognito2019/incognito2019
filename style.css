@@ -2879,7 +2879,7 @@ p {
 }
 
 .navigation__item--active .navigation__icon {
-  background-image: url("images/Icons/polygon-nav-default.svg");
+  background-image: url("images/icons/polygon-nav-default.svg");
   background-size: contain;
   background-repeat: no-repeat;
   width: 34px;
@@ -2890,7 +2890,7 @@ p {
 
 .navigation__item--active .navigation__icon:before {
   content: "";
-  background-image: url("images/Icons/polygon-nav-big.svg");
+  background-image: url("images/icons/polygon-nav-big.svg");
   width: 50px;
   height: 45px;
   position: absolute;
@@ -2911,7 +2911,7 @@ p {
 }
 
 .navigation__icon {
-  background-image: url("images/Icons/polygon-nav-tiny.svg");
+  background-image: url("images/icons/polygon-nav-tiny.svg");
   width: 28px;
   height: 25px;
   padding: 5px 0 5px 2px;
@@ -3791,7 +3791,7 @@ body.ready .mars__logo {
 @media screen and (max-width: 30em) {
   .button--mouse:before {
     content: "";
-    background-image: url(images/Icons/mouse.svg);
+    background-image: url(images/icons/mouse.svg);
     background-size: 100%;
     width: 1.6rem;
     height: 20rem;
@@ -4115,7 +4115,7 @@ body.ready .mars__logo {
 
 .button--facebook:hover:after,.button--twitter:hover:after,.button--instagram:hover:after {
   content: '';
-  background-image: url("images/Icons/polygon-extend.svg");
+  background-image: url("images/icons/polygon-extend.svg");
   background-repeat: no-repeat;
   width: 9.2rem;
   height: 8.5rem;
