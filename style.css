@@ -2441,7 +2441,7 @@ p {
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
-  
+
 }
 
 /* Track */
@@ -2449,10 +2449,10 @@ p {
   border-radius: 10px;
   background-color: transparent;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #B9321A; 
+  background: #B9321A;
 }
 /*-----------------------------*/
 
@@ -3413,7 +3413,7 @@ body.ready .mars__black {
 }
 
 .mars__logo {
-  background-image: url("images/Header/logo-mars.png");
+  background-image: url("images/Header/Incognitoff.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 30rem;
@@ -3438,7 +3438,7 @@ body.ready .mars__logo {
 @media screen and (min-width: 62em) {
   .mars__logo {
     background-size: cover;
-    width: 55.6rem;
+    width: 74.6rem;
     height: 17.8rem;
   }
 }
@@ -3457,6 +3457,8 @@ body.ready .mars__logo {
     margin-top: 6.5rem;
   }
 }
+
+
 
 .visual {
   position: absolute;
