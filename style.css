@@ -3247,13 +3247,25 @@ body.ready .navigation {
 
 @media screen and (min-width: 75em) {
   .block__content--intro {
-    padding-top: 10rem;
+    padding-top: 8rem;
   }
 }
 
 @media screen and (max-width: 30em) {
   .block__content--intro {
-    padding: 0 2.5rem;
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .block__content--int {
+    padding-top: 0rem;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  .block__content--int {
+    padding: 0 0rem;
   }
 }
 
@@ -4440,5 +4452,15 @@ body.ready .stars {
   background-size: contain;
   opacity: 0.6;
   z-index: -1;
+}
+.map
+{
+    opacity: 0.5;
+  filter: alpha(opacity=50);
+    border-radius: 50px 20px;
+}
+.map:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 >>>>>>> 9c0b7c22a72a3578d9abb8eeb47b0cdea2249e4a
