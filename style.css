@@ -3043,11 +3043,13 @@ body.ready .navigation {
 }
 
 .section2:before {
-  width: 2px;
-  height: 80px;
+  content: "";
+  background-image: url(images/test3.png);
+  width: 100px;
+  height: 100px;
   position: relative;
   left: 50%;
-  margin: 0 0 12.5rem -1px;
+  /*margin: 0 0 12.5rem -1px;*/
   opacity: 0.4;
   display: block;
 }
@@ -3313,10 +3315,10 @@ body.ready .navigation {
 }
 
 .social__logo {
-  background-image: url("images/natgeo-logo.svg");
+  background-image: url("images/social.png");
   background-size: cover;
-  width: 74px;
-  height: 106px;
+  width: 150px;
+  height: 150px;
   display: block;
 }
 
@@ -3806,6 +3808,18 @@ body.ready .mars__logo {
   position: relative;
 }
 
+
+.button2 {
+  /*background-image: url("images/icons/polygon-default.svg");*/
+  background-size: cover;
+  cursor: pointer;
+  height: 6.1rem;
+  width: 68px;
+  text-align: center;
+  display: block;
+  position: relative;
+}
+
 @media screen and (max-width: 30em) {
   .button {
     background-size: 100%;
@@ -3815,7 +3829,7 @@ body.ready .mars__logo {
 }
 
 .button--mouse:before {
-  content: url("images/icons/mouse.svg");
+  content: url("images/test2.png");
   position: relative;
   top: 14px;
   display: inline-block;
@@ -3832,7 +3846,7 @@ body.ready .mars__logo {
 @media screen and (max-width: 30em) {
   .button--mouse:before {
     content: "";
-    background-image: url(images/icons/mouse.svg);
+    background-image: url(images/test2.png);
     background-size: 100%;
     width: 1.6rem;
     height: 20rem;
