@@ -3048,8 +3048,8 @@ body.ready .navigation {
   width: 100px;
   height: 100px;
   position: relative;
-  left: 50%;
-  /*margin: 0 0 12.5rem -1px;*/
+  left: 44%;
+  margin: 0 0 12.5rem -1px;
   opacity: 0.4;
   display: block;
 }
@@ -3149,11 +3149,11 @@ body.ready .navigation {
 @media screen and (max-width: 62em) {
   .block__title--mars {
     font-size: 7.5rem;
-    margin: 3rem -0.3em 13rem 0;
+    margin: 3rem -0.3em 3rem 0;
   }
 
   .block__title--quiz {
-    margin: 3rem -0.3em 13rem 0;
+    margin: 3rem -0.3em 3rem 0;
   }
 
   .block__title--landing {
@@ -3164,7 +3164,7 @@ body.ready .navigation {
     width: auto;
     margin-left: inherit;
     font-size: 7.5rem;
-    margin: 3rem -0.3em 10rem 0;
+    margin: 3rem -0.3em 3rem 0;
   }
 }
 
@@ -3221,21 +3221,23 @@ body.ready .navigation {
 
 @media screen and (max-width: 62em) {
   .block__content--right {
-    padding: 50px 14.5rem 0;
+    padding: 0px 14.5rem;
+    margin: 16px 0px;
     margin: 0;
   }
 }
 
 @media screen and (max-width: 48em) {
   .block__content--right {
-    padding: 0 7.5rem;
+    padding: 0 1.5rem;
   }
 }
 
 @media screen and (max-width: 30em) {
   .block__content--right {
     font-size: 1.6rem;
-    padding: 2.4rem 2.5rem 0;
+    padding: 1rem 2.5rem 0;
+    margin: 16px 0px;
     line-height: 2rem;
   }
 }
@@ -3258,7 +3260,7 @@ body.ready .navigation {
 
 @media screen and (max-width: 30em) {
   .block__content--left {
-    padding: 9rem 2.5rem 0 2.5rem;
+    padding: 1rem 2.5rem 0 2.5rem;
     font-size: 1.6rem;
     line-height: 2.4rem;
     text-align: left;
