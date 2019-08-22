@@ -2498,9 +2498,9 @@ p {
 }
 
 .link__text {
-  margin-left: 1rem;
+  margin-left: .5rem;
   position: relative;
-  padding: .5rem .3rem 0 .1rem;
+  padding: .2rem .3rem 0 .1rem;
   letter-spacing: 0.2rem;
 }
 
@@ -2509,6 +2509,7 @@ p {
     width: 31rem;
     margin-left: 2rem;
     margin-top: -6rem;
+    text-align: center;
   }
 
   .link__text--spaced {
@@ -3042,17 +3043,6 @@ body.ready .navigation {
   display: block;
 }
 
-.section2:before {
-  content: "";
-  background-image: url(images/test3.png);
-  width: 100px;
-  height: 100px;
-  position: relative;
-  left: 44%;
-  margin: 0 0 12.5rem -1px;
-  opacity: 0.4;
-  display: block;
-}
 
 .block {
   float: left;
@@ -3075,7 +3065,7 @@ body.ready .navigation {
 
 .block__caption {
   font-family: "Quantico-Bold",sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.8rem
   text-transform: uppercase;
   color: #c46b16;
   letter-spacing: 0.3em;
@@ -3204,17 +3194,18 @@ body.ready .navigation {
   letter-spacing: 0.03em;
   max-width: 100%;
   text-shadow: 0 0px 1px #000;
-  text-align: justify;
+  /*text-align: justify;*/
   position: relative;
+  padding: 5px;
 }
-    
 
 .block__content2 {
   letter-spacing: 0.03em;
   max-width: 100%;
   text-shadow: 0 0px 1px #000;
+  position: relative;
 }
-
+    
 .block__content--right {
   margin: 0 -0.1em 0 8rem;
 }
@@ -3304,7 +3295,15 @@ body.ready .navigation {
 
 .block__mark {
   font-family: "NGC-CondBold",sans-serif;
-  font-size: 2rem;
+  font-size: 2.1rem;
+  text-transform: uppercase;
+  color: #c46b16;
+  opacity: 0.8;
+}
+
+.block__mark2 {
+  font-family: "NGC-CondBold",sans-serif;
+  font-size: 2.5rem;
   text-transform: uppercase;
   color: #c46b16;
   opacity: 0.8;
@@ -3816,7 +3815,7 @@ body.ready .mars__logo {
   background-size: cover;
   cursor: pointer;
   height: 6.1rem;
-  width: 68px;
+  width: 65px;
   text-align: center;
   display: block;
   position: relative;
