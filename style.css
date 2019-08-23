@@ -2507,7 +2507,7 @@ p {
 @media screen and (max-width: 62em) {
   .link__text--aligned {
     width: 31rem;
-    margin-left: -2rem;
+    margin-left: 0rem;
     margin-top: -6rem;
     text-align: center;
   }
@@ -3944,7 +3944,7 @@ body.ready .mars__logo {
   height: 6rem;
   width: 6.6rem;
   position: relative;
-  margin-left: 0rem;
+  margin-left: 2rem;
   margin-right: 1rem;
   pointer-events: none;
 }
