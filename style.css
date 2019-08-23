@@ -2507,7 +2507,7 @@ p {
 @media screen and (max-width: 62em) {
   .link__text--aligned {
     width: 31rem;
-    margin-left: 2rem;
+    margin-left: -3rem;
     margin-top: -6rem;
     text-align: center;
   }
