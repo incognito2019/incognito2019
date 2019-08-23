@@ -3065,7 +3065,7 @@ body.ready .navigation {
 
 .block__caption {
   font-family: "Quantico-Bold",sans-serif;
-  font-size: 1.8rem
+  font-size: 2rem
   text-transform: uppercase;
   color: #c46b16;
   letter-spacing: 0.3em;
@@ -3102,7 +3102,7 @@ body.ready .navigation {
 
 @media screen and (max-width: 30em) {
   .block__caption--right,.block__caption--left {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 
