@@ -2513,7 +2513,7 @@ p {
   }
 
   .link__text--spaced {
-    margin-left: -5rem;
+    margin-left: 1rem;
     margin-right: 2rem;
   }
 }
