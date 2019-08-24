@@ -3240,7 +3240,7 @@ body.ready .navigation {
 @media screen and (max-width: 30em) {
   .block__content--right {
     font-size: 1.6rem;
-    padding: 1rem 2.5rem 0;
+    padding: 19rem 2.5rem 0 2.5rem;
     margin: 16px 0px;
     line-height: 2rem;
   }
@@ -3266,6 +3266,7 @@ body.ready .navigation {
 
 @media screen and (max-width: 30em) {
   .block__content--left {
+    /*text-image alignment*/
     padding: 19rem 2.5rem 0 2.5rem;
     font-size: 1.6rem;
     line-height: 2.4rem;
