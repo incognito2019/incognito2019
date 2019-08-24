@@ -2507,13 +2507,13 @@ p {
 @media screen and (max-width: 62em) {
   .link__text--aligned {
     width: 31rem;
-    margin-left: 0rem;
+    margin-left: 2rem;
     margin-top: -6rem;
     text-align: center;
   }
 
   .link__text--spaced {
-    margin-left: 1rem;
+    margin-left: -5rem;
     margin-right: 2rem;
   }
 }
@@ -3114,7 +3114,7 @@ body.ready .navigation {
 
 .block__title {
   letter-spacing: 0.1em;
-  margin: 3rem 0em 0 0;
+  margin: 3rem -0.3em 0 0;
   font-size: 8rem;
   letter-spacing: 0em;
 }
@@ -3168,12 +3168,12 @@ body.ready .navigation {
 @media screen and (max-width: 30em) {
   .block__title {
     font-size: 3.3rem;
-    padding: 0 2.7rem 0 1.7rem;
+    padding: 0;
   }
     
     .block__title2 {
     font-size: 3.3rem;
-    padding: 0 2.7rem 0 1.7rem;
+    padding: 0;
   }
 
   .block__title--mars {
@@ -3944,7 +3944,7 @@ body.ready .mars__logo {
   height: 6rem;
   width: 6.6rem;
   position: relative;
-  margin-left: 2rem;
+  margin-left: -1rem;
   margin-right: 1rem;
   pointer-events: none;
 }
