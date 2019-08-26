@@ -3382,7 +3382,7 @@ body.ready .navigation {
 }
 
 .logo {
-  background-image: url("images/tech.png");
+  background-image: url("images/logo%20desktop.png");
   background-size: cover;
   width: 82rem;
   height: 12.5rem;
@@ -3392,7 +3392,7 @@ body.ready .navigation {
 }
 @media screen and (max-width: 30em) {
  .logo {
-  background-image: url("images/techmobile.png");
+  background-image: url("images/logo%20mobile.png");
   background-size: cover;
   width: 30rem;
   height: 10rem;
@@ -3404,7 +3404,7 @@ body.ready .navigation {
 
 @media screen and (max-width: 48em) {
  .logo {
-  background-image: url("images/techmobile.png");
+  background-image: url("images/logo%20mobile.png");
   background-size: cover;
   width: 30rem;
   height: 10rem;
@@ -3416,7 +3416,7 @@ body.ready .navigation {
 
 @media screen and (max-width: 62em) {
  .logo {
-  background-image: url("images/techmobile.png");
+  background-image: url("images/logo%20mobile.png");
   background-size: cover;
   width: 30rem;
   height: 10rem;
@@ -3516,7 +3516,7 @@ body.ready .mars__black {
 }
 
 .mars__logo {
-  background-image: url("images/Header/IncognitoFINFINALE.png");
+  background-image: url("images/Header/IncognitoFINALEh1.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 300px;
@@ -3526,13 +3526,12 @@ body.ready .mars__black {
   max-width: 100%;
   opacity: 0;
 }
-
-.mars__logo2 {
-  background-image: url("images/EVENTSFINALE.png");
+.mars__logo-events {
+  background-image: url("images/Header/EVENTSFINALEh1.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 540px;
-  height: 175px;
+  width: 300px;
+  height: 100px;
   display: block;
   position: relative;
   max-width: 100%;
@@ -3544,9 +3543,18 @@ body.ready .mars__logo {
   opacity: 1;
   transition: opacity 1700ms 4000ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
+body.ready .mars__logo-events {
+  opacity: 1;
+  transition: opacity 1700ms 4000ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
 
 @media screen and (max-width: 62em) {
   body.ready .mars__logo {
+    transition-delay: 2000ms;
+  }
+}
+@media screen and (max-width: 62em) {
+  body.ready .mars__logo-events {
     transition-delay: 2000ms;
   }
 }
@@ -3557,13 +3565,29 @@ body.ready .mars__logo {
     width: 74.6rem;
     height: 17.8rem;
   }
+    
+}
+@media screen and (min-width: 62em) {
+  .mars__logo-events {
+    background-size: cover;
+    width: 74.6rem;
+    height: 17.8rem;
+  }
+    
 }
 
 .mars__logo--center {
   margin: 0 auto;
 }
+.mars__logo-events--center {
+  margin: 0 auto;
+}
 
 .mars__logo--header {
+  margin-top: 2.8rem;
+  margin-bottom: 2.5rem;
+}
+.mars__logo-events--header {
   margin-top: 2.8rem;
   margin-bottom: 2.5rem;
 }
@@ -4040,58 +4064,13 @@ body.ready .mars__logo {
 .button--glitch-1,.button--glitch-2,.button--glitch-3,.button--glitch-4 {
   display: none;
 }
-.button--glit {
-  transform: rotate(30deg);
-  display: inline-block;
-  height: 6rem;
-  width: 6.6rem;
-  position: relative;
-  margin-left: 4rem;
-  margin-right: 1rem;
-  pointer-events: none;
-}
-
-.button--glit:before {
-  content: '';
-  width: 12px;
-  height: 12px;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  transform: rotate(-30deg);
-  background: url("images/icons/icon-plus.svg") no-repeat center;
-  z-index: 1;
-  transition: all .25s ease-in;
-}
-
-.button--glit:after {
-  content: '';
-  position: absolute !important;
-  width: 53px !important;
-  height: 48px !important;
-  opacity: 0;
-  top: 0 !important;
-  left: 0 !important;
-  transform: rotate(-30deg);
-  background: url("images/icons/polygon-full.svg") no-repeat center;
-  background-size: 70%;
-  transition: opacity .25s ease-in;
-}
-
-.button--glit-1,.button--glit-2,.button--glit-3,.button--glit-4 {
-  display: none;
-}
 .button--glitc {
   transform: rotate(30deg);
   display: inline-block;
   height: 6rem;
   width: 6.6rem;
   position: relative;
-  margin-left: 3rem;
+  margin-left: -1rem;
   margin-right: 1rem;
   pointer-events: none;
 }
