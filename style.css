@@ -4070,7 +4070,7 @@ body.ready .mars__logo-events {
   height: 6rem;
   width: 6.6rem;
   position: relative;
-  margin-left: -1rem;
+  margin-left: 4rem;
   margin-right: 1rem;
   pointer-events: none;
 }
