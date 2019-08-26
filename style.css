@@ -3986,49 +3986,8 @@ body.ready .mars__logo {
   background-size: 70%;
   transition: opacity .25s ease-in;
 }
-.button--glitch-5 {
-  transform: rotate(30deg);
-  display: inline-block;
-  height: 6rem;
-  width: 6.6rem;
-  position: relative;
-  margin-left: 4rem;
-  margin-right: 1rem;
-  pointer-events: none;
-}
 
-.button--glitch-5:before {
-  content: '';
-  width: 12px;
-  height: 12px;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  transform: rotate(-30deg);
-  background: url("images/icons/icon-plus.svg") no-repeat center;
-  z-index: 1;
-  transition: all .25s ease-in;
-}
-
-.button--glitch-5:after {
-  content: '';
-  position: absolute !important;
-  width: 53px !important;
-  height: 48px !important;
-  opacity: 0;
-  top: 0 !important;
-  left: 0 !important;
-  transform: rotate(-30deg);
-  background: url("images/icons/polygon-full.svg") no-repeat center;
-  background-size: 70%;
-  transition: opacity .25s ease-in;
-}
-
-.button--glitch-1,.button--glitch-2,.button--glitch-3,.button--glitch-4,.button--glitch-5 {
+.button--glitch-1,.button--glitch-2,.button--glitch-3,.button--glitch-4 {
   display: none;
 }
 
