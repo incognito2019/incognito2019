@@ -2521,6 +2521,7 @@ p {
 @media screen and (max-width: 30em) {
   .link__text--aligned {
     margin-top: -4rem;
+      margin-left: -2rem;
   }
 }
 
@@ -3381,14 +3382,50 @@ body.ready .navigation {
 }
 
 .logo {
-  background-image: url("images/natgeo-logo-text.png");
+  background-image: url("images/tech.png");
   background-size: cover;
-  width: 13.5rem;
-  height: 4rem;
+  width: 82rem;
+  height: 12.5rem;
   position: relative;
   opacity: 0;
   transition: all 8s 4s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
+@media screen and (max-width: 30em) {
+ .logo {
+  background-image: url("images/techmobile.png");
+  background-size: cover;
+  width: 30rem;
+  height: 10rem;
+  position: relative;
+  opacity: 0;
+  transition: all 8s 4s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+}
+
+@media screen and (max-width: 48em) {
+ .logo {
+  background-image: url("images/techmobile.png");
+  background-size: cover;
+  width: 30rem;
+  height: 10rem;
+  position: relative;
+  opacity: 0;
+  transition: all 8s 4s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+}
+
+@media screen and (max-width: 62em) {
+ .logo {
+  background-image: url("images/techmobile.png");
+  background-size: cover;
+  width: 30rem;
+  height: 10rem;
+  position: relative;
+  opacity: 0;
+  transition: all 8s 4s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+}
+
 
 .logo--center {
   margin: 0 auto;
@@ -3479,16 +3516,29 @@ body.ready .mars__black {
 }
 
 .mars__logo {
-  background-image: url("images/Header/titletest.png");
+  background-image: url("images/Header/IncognitoFINFINALE.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 30rem;
-  height: 9.8rem;
+  width: 300px;
+  height: 100px;
   display: block;
   position: relative;
   max-width: 100%;
   opacity: 0;
 }
+
+.mars__logo2 {
+  background-image: url("images/EVENTSFINALE.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 540px;
+  height: 175px;
+  display: block;
+  position: relative;
+  max-width: 100%;
+  opacity: 0;
+}
+
 
 body.ready .mars__logo {
   opacity: 1;
@@ -3514,7 +3564,7 @@ body.ready .mars__logo {
 }
 
 .mars__logo--header {
-  margin-top: 12.5rem;
+  margin-top: 2.8rem;
   margin-bottom: 2.5rem;
 }
 
@@ -3955,47 +4005,6 @@ body.ready .mars__logo {
   margin-right: 1rem;
   pointer-events: none;
 }
-.button--glitc {
-  transform: rotate(30deg);
-  display: inline-block;
-  height: 6rem;
-  width: 6.6rem;
-  position: relative;
-  margin-left: 4rem;
-  margin-right: 1rem;
-  pointer-events: none;
-}
-.button--glitc:before {
-  content: '';
-  width: 12px;
-  height: 12px;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  transform: rotate(-30deg);
-  background: url("images/icons/icon-plus.svg") no-repeat center;
-  z-index: 1;
-  transition: all .25s ease-in;
-}
-
-.button--glitc:after {
-  content: '';
-  position: absolute !important;
-  width: 53px !important;
-  height: 48px !important;
-  opacity: 0;
-  top: 0 !important;
-  left: 0 !important;
-  transform: rotate(-30deg);
-  background: url("images/icons/polygon-full.svg") no-repeat center;
-  background-size: 70%;
-  transition: opacity .25s ease-in;
-}
-
 
 .button--glitch:before {
   content: '';
@@ -4031,6 +4040,48 @@ body.ready .mars__logo {
 .button--glitch-1,.button--glitch-2,.button--glitch-3,.button--glitch-4 {
   display: none;
 }
+.button--glitc {
+  transform: rotate(30deg);
+  display: inline-block;
+  height: 6rem;
+  width: 6.6rem;
+  position: relative;
+  margin-left: -1rem;
+  margin-right: 1rem;
+  pointer-events: none;
+}
+
+.button--glitc:before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotate(-30deg);
+  background: url("images/icons/icon-plus.svg") no-repeat center;
+  z-index: 1;
+  transition: all .25s ease-in;
+}
+
+.button--glitc:after {
+  content: '';
+  position: absolute !important;
+  width: 53px !important;
+  height: 48px !important;
+  opacity: 0;
+  top: 0 !important;
+  left: 0 !important;
+  transform: rotate(-30deg);
+  background: url("images/icons/polygon-full.svg") no-repeat center;
+  background-size: 70%;
+  transition: opacity .25s ease-in;
+}
+
 .button--glitc-1,.button--glitc-2,.button--glitc-3,.button--glitc-4 {
   display: none;
 }
