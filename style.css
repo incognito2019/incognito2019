@@ -3955,6 +3955,16 @@ body.ready .mars__logo {
   margin-right: 1rem;
   pointer-events: none;
 }
+.button--glitc {
+  transform: rotate(30deg);
+  display: inline-block;
+  height: 6rem;
+  width: 6.6rem;
+  position: relative;
+  margin-left: 4rem;
+  margin-right: 1rem;
+  pointer-events: none;
+}
 
 .button--glitch:before {
   content: '';
