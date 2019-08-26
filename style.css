@@ -3125,6 +3125,12 @@ body.ready .navigation {
   font-size: 7rem;
   letter-spacing: 0em;
 }
+.block__title3 {
+  letter-spacing: 0.1em;
+  margin: 3rem -0.3em 0 0;
+  font-size: 8rem;
+  letter-spacing: 0em;
+}
 
 .block__title.animated {
   letter-spacing: 0.3em;
@@ -3167,7 +3173,7 @@ body.ready .navigation {
 
 @media screen and (max-width: 30em) {
   .block__title {
-    font-size: 3.3rem;
+    font-size: 3.15rem;
     padding: 0;
   }
     
@@ -3182,8 +3188,8 @@ body.ready .navigation {
   }
 
   .block__title--boek {
-    font-size: 5.5rem;
-    margin: 0 0px 10rem 2rem;
+    font-size: 3.15rem;
+    margin: 3rem 0 0 0;
   }
 
   .block__title--landing {
