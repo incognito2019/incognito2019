@@ -3965,6 +3965,37 @@ body.ready .mars__logo {
   margin-right: 1rem;
   pointer-events: none;
 }
+.button--glitc:before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotate(-30deg);
+  background: url("images/icons/icon-plus.svg") no-repeat center;
+  z-index: 1;
+  transition: all .25s ease-in;
+}
+
+.button--glitc:after {
+  content: '';
+  position: absolute !important;
+  width: 53px !important;
+  height: 48px !important;
+  opacity: 0;
+  top: 0 !important;
+  left: 0 !important;
+  transform: rotate(-30deg);
+  background: url("images/icons/polygon-full.svg") no-repeat center;
+  background-size: 70%;
+  transition: opacity .25s ease-in;
+}
+
 
 .button--glitch:before {
   content: '';
@@ -3998,6 +4029,9 @@ body.ready .mars__logo {
 }
 
 .button--glitch-1,.button--glitch-2,.button--glitch-3,.button--glitch-4 {
+  display: none;
+}
+.button--glitc-1,.button--glitc-2,.button--glitc-3,.button--glitc-4 {
   display: none;
 }
 
