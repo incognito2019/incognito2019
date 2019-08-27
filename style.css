@@ -2845,7 +2845,7 @@ p {
 }
 
 .navigation {
-  z-index: 99;
+  z-index: auto;
   position: fixed;
   margin: 10rem 0 0 5rem;
   display: none;
